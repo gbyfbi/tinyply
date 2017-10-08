@@ -214,7 +214,8 @@ void read_ply_file(const std::string & filename)
 
 int main(int argc, char *argv[])
 {
-	write_ply_example("example_tetrahedron.ply");
-	read_ply_file("example_tetrahedron.ply");
+//	write_ply_example("example_tetrahedron.ply");
+//	read_ply_file("example_tetrahedron.ply");
+	read_ply_file("assets/bunny.ply");
 	return 0;
 }
